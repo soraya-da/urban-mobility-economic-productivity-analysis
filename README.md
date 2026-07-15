@@ -1,15 +1,37 @@
-Mi equipo debe entregar un reporte para entender cómo la movilidad urbana (niveles de congestión, tiempos de viaje, retrasos) se relaciona con la productividad económica (PIB per cápita, desempleo) en las principales ciudades latinoamericanas.
+# Movilidad urbana y productividad económica en América Latina
 
-El objetivo del banco es identificar en qué ciudades invertir en infraestructura de transporte para aumentar la productividad y el bienestar de la población.
+## Descripción
 
-Para ello, usamos dos fuentes reales de datos:
+Proyecto de análisis exploratorio de datos desarrollado con Python para estudiar la relación entre la movilidad urbana y la productividad económica en ciudades de América Latina.
 
-Movilidad urbana: TomTom Traffic Index (datos de tráfico en tiempo real).
-Economía urbana: OECD Cities (PIB per cápita, desempleo y población).
-La misión será limpiar, unir y analizar ambas bases para obtener información útil para la toma de decisiones.
+## Objetivo
 
- Preguntas del negocio:
+Evaluar si existe una relación entre el PIB per cápita y los niveles de congestión utilizando datos de movilidad urbana y variables económicas.
 
-¿Qué ciudades de América Latina presentan alta congestión y baja productividad económica?
-¿Cuáles muestran los mejores indicadores combinados (movilidad eficiente y economía fuerte)?
-¿Qué variables parecen tener una relación más fuerte con el desarrollo urbano?
+## Tecnologías utilizadas
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
+
+## Principales actividades
+
+- Limpieza y estandarización de datos.
+- Integración de dos conjuntos de datos.
+- Validación de tipos de datos.
+- Cálculo de indicadores agregados.
+- Análisis exploratorio de datos (EDA).
+- Visualización de resultados.
+
+## Principales hallazgos
+
+- No se encontró una relación directa entre el PIB per cápita y la congestión.
+- La infraestructura y la planificación urbana explican mejor las diferencias observadas.
+- Se identificaron patrones útiles para apoyar la toma de decisiones en movilidad urbana.
+
+## Archivo principal
+
+- urban_mobility_economic_productivity_analysis.ipynb
